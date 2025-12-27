@@ -70,3 +70,4 @@ junit-*.xml
 *.log
 *.sqlite3
 *.db
+.DS_Store

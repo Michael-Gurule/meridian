@@ -1,0 +1,51 @@
+# MERIDIAN Dashboard Configuration
+
+application:
+  title: "MERIDIAN Portfolio Optimization"
+  version: "1.0.0"
+  icon: "📊"
+  layout: "wide"
+
+portfolio:
+  default_value: 1000000.0
+  min_value: 10000
+  max_value: 100000000
+  
+optimization:
+  default_objective: "mean_variance"
+  default_risk_aversion: 1.0
+  max_position_size: 0.4
+  max_turnover: 0.5
+  
+  available_objectives:
+    - mean_variance
+    - min_variance
+    - risk_parity
+    - max_diversification
+  
+  covariance_methods:
+    - sample
+    - ledoit_wolf
+    - ewma
+
+regime_detection:
+  enabled: true
+  default_regimes: 2
+  max_regimes: 3
+  default_iterations: 100
+
+display:
+  show_transaction_costs: true
+  efficient_frontier_points: 30
+  default_lookback_years: 2
+
+colors:
+  primary: "#1f77b4"
+  secondary: "#ff7f0e"
+  success: "#2ca02c"
+  danger: "#d62728"
+  warning: "#ffbb00"
+  info: "#17a2b8"
+  regime_0: "#2ecc71"
+  regime_1: "#e74c3c"
+  regime_2: "#f39c12"

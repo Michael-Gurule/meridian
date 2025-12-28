@@ -18,9 +18,11 @@ pip-log.txt
 pip-delete-this-directory.txt
 set.cfg
 
-# --- Jupyter Notebooks ---
+# --- Notebooks & Docs---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+docs/
+notebooks/
 
 # -- Data -- 
 data/raw/
@@ -33,6 +35,8 @@ data/processed/
 *.sqlite
 
 # -- Models & Heavy Binaries ---
+scripts/
+.sh
 *.pkl
 *.joblib
 *.h5
@@ -56,6 +60,8 @@ pip-wheel-metadata/
 *.swp
 
 # --- Tests / Coverage ---
+test_models/
+test_optimization/
 .coverage
 .coverage.*
 htmlcov/

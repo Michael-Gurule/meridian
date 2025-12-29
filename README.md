@@ -1,4 +1,11 @@
-# MERIDIAN: Multi-Asset Portfolio Optimization System
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/95eba324-3105-47fc-80cb-ef0a89a72f1a" alt="Alt text description">
+<p align="center">
+  <strong>Multi-Asset Portfolio Optimization System</strong><br>
+</p>  
+<br>
+
 
 **Production-grade portfolio optimization with regime detection and interactive decision support**
 
@@ -64,32 +71,32 @@ MERIDIAN Portfolio Optimization System
 ##  Features
 
 ### Market Data Acquisition 
-- ✅ **25 assets** across equities, fixed income, commodities, alternatives
-- ✅ **Multi-source integration**: Yahoo Finance, NASA, USGS, NOAA, FEMA
-- ✅ **Robust validation**: Data quality checks, outlier detection
-- ✅ **Efficient storage**: Parquet format with 60% compression
-- ✅ **Batch downloads**: API rate limit handling
+[X] **25 assets** across equities, fixed income, commodities, alternatives
+[X] **Multi-source integration**: Yahoo Finance, NASA, USGS, NOAA, FEMA
+[X] **Robust validation**: Data quality checks, outlier detection
+[X] **Efficient storage**: Parquet format with 60% compression
+[X] **Batch downloads**: API rate limit handling
 
 ### Statistical Modeling 
-- ✅ **Covariance estimation**: Sample, Ledoit-Wolf, EWMA, constant correlation
-- ✅ **GARCH(1,1)**: Volatility clustering and forecasting
-- ✅ **Regime detection**: 2-3 state Hidden Markov Models
-- ✅ **Return forecasting**: Historical, momentum, factor models
+[X]  **Covariance estimation**: Sample, Ledoit-Wolf, EWMA, constant correlation
+[X]  **GARCH(1,1)**: Volatility clustering and forecasting
+[X]  **Regime detection**: 2-3 state Hidden Markov Models
+[X]  **Return forecasting**: Historical, momentum, factor models
 
 ### Portfolio Optimization 
-- ✅ **Multiple objectives**: Mean-variance, minimum variance, risk parity, max diversification
-- ✅ **Realistic constraints**: Long-only, position bounds, turnover limits, sector constraints
-- ✅ **Transaction costs**: Bid-ask spread + market impact + commissions
-- ✅ **Regime-conditional**: Adapts allocations to market state
-- ✅ **Backtesting**: Walk-forward validation with realistic execution
+[X]  **Multiple objectives**: Mean-variance, minimum variance, risk parity, max diversification
+[X]  **Realistic constraints**: Long-only, position bounds, turnover limits, sector constraints
+[X]  **Transaction costs**: Bid-ask spread + market impact + commissions
+[X]  **Regime-conditional**: Adapts allocations to market state
+[X]  **Backtesting**: Walk-forward validation with realistic execution
 
 ### Interactive Dashboard 
-- ✅ **Portfolio monitoring**: Real-time state and performance tracking
-- ✅ **Optimization interface**: Interactive controls for strategy parameters
-- ✅ **Regime dashboard**: Current market state and regime probabilities
-- ✅ **Performance analytics**: 20+ metrics with benchmark comparison
-- ✅ **Scenario analysis**: Stress tests, custom shocks, historical events, Monte Carlo
-- ✅ **Recommendations**: Cost-benefit analysis with exportable trade lists
+[X]  **Portfolio monitoring**: Real-time state and performance tracking
+[X]  **Optimization interface**: Interactive controls for strategy parameters
+[X]  **Regime dashboard**: Current market state and regime probabilities
+[X]  **Performance analytics**: 20+ metrics with benchmark comparison
+[X]  **Scenario analysis**: Stress tests, custom shocks, historical events, Monte Carlo
+[X]  **Recommendations**: Cost-benefit analysis with exportable trade lists
 
 ---
 
@@ -324,18 +331,30 @@ This project mirrors systems built during 8+ years of Fortune 500 consulting:
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see LICENSE file for details.
 
 ---
+## Contributing
 
-## Author
+This is a portfolio project. For questions or collaboration:
 
-**Michael Gurule**  
-Data Scientist | ML Engineer  
+**Michael Gurule**
 
 - [![Email Me](https://img.shields.io/badge/EMAIL-8A2BE2)](michaelgurule1164@gmail.com)
 - [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](www.linkedin.com/in/michael-j-gurule-447aa2134)
 - [![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://medium.com/@michaelgurule1164)
+
 ---
 
-**MERIDIAN** - *Demonstrating institutional-quality quantitative finance capabilities through production-grade portfolio optimization*
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f6809ba2-b001-407b-bfe6-909072ddef85" alt="MERIDIAN" width="40">
+  <br>
+  <sub> Built by Michael Gurule </sub>  
+
+<p align="center">
+  <sub> Demonstrating institutional-quality quantitative finance capabilities through production-grade portfolio optimization </sub>
+</p>
+
+  

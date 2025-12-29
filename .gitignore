@@ -77,3 +77,4 @@ junit-*.xml
 *.sqlite3
 *.db
 .DS_Store
+tests/__init__.py

@@ -1,0 +1,22 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Icon -->
+    <g transform="translate(5, 5)">
+        <!-- Globe circle -->
+        <circle cx="25" cy="25" r="22" stroke="url(#full-gradient)" stroke-width="1.5" fill="none"/>
+        <!-- Meridian line (vertical) -->
+        <ellipse cx="25" cy="25" rx="10" ry="22" stroke="url(#full-gradient)" stroke-width="1.5" fill="none"/>
+        <!-- Equator line (horizontal) -->
+        <ellipse cx="25" cy="25" rx="22" ry="8" stroke="url(#full-gradient)" stroke-width="1.5" fill="none"/>
+        <!-- Upward trend arrow -->
+        <polyline points="10,36 18,28 26,32 40,18" stroke="url(#full-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <polyline points="34,18 40,18 40,24" stroke="url(#full-gradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <!-- Text -->
+    <text x="62" y="38" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="url(#full-gradient)" letter-spacing="2">MERIDIAN</text>
+    <defs>
+        <linearGradient id="full-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00c896;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#00a878;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+</svg>

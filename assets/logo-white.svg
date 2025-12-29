@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Globe circle -->
+    <circle cx="20" cy="20" r="17" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <!-- Meridian line (vertical) -->
+    <ellipse cx="20" cy="20" rx="8" ry="17" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <!-- Equator line (horizontal) -->
+    <ellipse cx="20" cy="20" rx="17" ry="6" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <!-- Upward trend arrow -->
+    <polyline points="10,28 16,22 22,25 30,14" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <polyline points="25,14 30,14 30,19" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

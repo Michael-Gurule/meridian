@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-  <img width="600" alt="MERIDIAN" src="https://github.com/user-attachments/assets/98acabc0-8f12-4cb4-9085-30cd78c7d521" /> 
+  <img width="500" alt="MERIDIAN" src="https://github.com/user-attachments/assets/98acabc0-8f12-4cb4-9085-30cd78c7d521" /> 
 <p align="center">
   <strong>Multi-Asset Portfolio Optimization System</strong>
   <br>

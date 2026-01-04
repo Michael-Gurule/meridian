@@ -1,13 +1,16 @@
+<br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95eba324-3105-47fc-80cb-ef0a89a72f1a" alt="Alt text description">
+  <img width="600" alt="MERIDIAN" src="https://github.com/user-attachments/assets/98acabc0-8f12-4cb4-9085-30cd78c7d521" /> 
 <p align="center">
-  <strong>Multi-Asset Portfolio Optimization System</strong><br>
+  <strong>Multi-Asset Portfolio Optimization System</strong>
+  <br>
+  <br>
+  <strong>Production-grade portfolio optimization with regime detection and interactive decision support</strong>
 </p>  
 <br>
 
 
-**Production-grade portfolio optimization with regime detection and interactive decision support**
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -349,7 +352,7 @@ This is a portfolio project. For questions or collaboration:
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f6809ba2-b001-407b-bfe6-909072ddef85" alt="MERIDIAN" width="40">
+  <img width="250" alt="MERIDIAN" src="https://github.com/user-attachments/assets/98acabc0-8f12-4cb4-9085-30cd78c7d521" /> 
   <br>
   <sub> Built by Michael Gurule </sub>  
 

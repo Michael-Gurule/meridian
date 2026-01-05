@@ -1,15 +1,21 @@
-# .gitignore for Meridian Project Version 1.0
+# .gitignore for Meridian Project 
 
-# --- OS generated files ---
-.DSS_Store
+# — MAC OS generated files ---
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[]
 Thumbs.db
+
 
 # --- Python / Environment ---
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Virtual environments
+*.egg
+*.egg-info/
+.eggs/
 venv/
 env/
 .venv
@@ -18,26 +24,22 @@ pip-log.txt
 pip-delete-this-directory.txt
 set.cfg
 
-# --- Notebooks & Docs---
+# --- Notebooks ---
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-docs/
-notebooks/
 
 # -- Data -- 
-data/raw/
-data/processed/
+assets/
+data/
+docs/
 *.csv
 *.json
 *.xlsx
 *.parquet
 *.sql
 *.sqlite
-assets/
 
 # -- Models & Heavy Binaries ---
-scripts/
-.sh
 *.pkl
 *.joblib
 *.h5
@@ -48,21 +50,23 @@ scripts/
 # Distribution / packaging
 build/
 dist/
- eggs/
-*.egg
-*.egg-info/
-pip-wheel-metadata/
-*.whl
+out/
+target/
+bin/
+obj/
 
-# --- IDEs ---
-.vscode/
-.code-workspace
-.idea/
-*.swp
+# --- VSCode ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
 
 # --- Tests / Coverage ---
-test_models/
-test_optimization/
+checkpoints/
 .coverage
 .coverage.*
 htmlcov/
@@ -71,11 +75,10 @@ htmlcov/
 .pytest_cache/
 nosetests.xml
 coverage.xml
-junit-*.xml
+.junit/
+
 
 # Misc
 *.log
 *.sqlite3
 *.db
-.DS_Store
-tests/__init__.py

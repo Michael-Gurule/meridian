@@ -272,9 +272,9 @@ class BacktestEngine:
         elif self.rebalance_frequency == 'W':
             return list(date_index[date_index.dayofweek == 0])  # Monday
         elif self.rebalance_frequency == 'M':
-            return list(date_index.to_series().resample('M').last().index)
+            return list(date_index.to_series().resample('ME').last().index)
         elif self.rebalance_frequency == 'Q':
-            return list(date_index.to_series().resample('Q').last().index)
+            return list(date_index.to_series().resample('QE').last().index)
         else:
             raise ValueError(f"Unknown frequency: {self.rebalance_frequency}")
     

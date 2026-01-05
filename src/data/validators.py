@@ -362,8 +362,8 @@ class DataValidator:
         
         # Handle missing values
         if method == 'forward_fill':
-            cleaned = cleaned.fillna(method='ffill')
-            cleaned = cleaned.fillna(method='bfill')  # Handle leading NaNs
+            cleaned = cleaned.ffill()
+            cleaned = cleaned.bfill()  # Handle leading NaNs
         elif method == 'interpolate':
             cleaned = cleaned.interpolate(method='linear')
         elif method == 'drop':
